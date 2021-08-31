@@ -1,0 +1,79 @@
+---
+title: 'Homework #1'
+author: "Rachel Grober"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This homework is more or less a tutorial that helps you set up the coding environment used in this course, and familiarizes you with the format of the assignment submission. 
+As a pre-requisite of this homework, first install R, and then the RStudio (the free version of Rstudio Desktop). 
+
+Please respond to all questions. If the question asks you to do something on your laptop and you have finished that, just say "Done". 
+
+1. Create a folder named `ds202_hw1`, and **either** create an RMarkDown file `hw1_FirstName_LastName.Rmd` under this folder **or** move the provided template into this folder. 
+Replace `FirstName` and `LastName` with your first and last name. 
+`hw1_FirstName_LastName.Rmd` will include your solutions. The file and folder names are *case-sensitive*, which means `hw1.Rmd` and `HW1.rmd` are different. *It is crucial to follow the exact folder structure and file names* in this course, so that your homework can be reproduced. The correct folder structure is
+
+    ```
+    ds202_hw1
+    |-- hw1_FirstName_LastName.Rmd
+    |-- hw1_FirstName_LastName.html (generated after knitting)
+    ```
+    
+    Answer: Done (Note that the start of your answer on the next line must be indented. In other words, don't remove the leading spaces.)
+
+2. Write your name in the YAML of your homework `Rmd` file.
+
+    Answer: Done
+
+3. Write a paragraph to introduce yourself. Set your name in bold font and your major in italic. 
+
+    Answer: Hi, everyone. My name is **Rachel Grober** and I am currently a senior majoring in *Agricultural Business* and *Supply Chain Management*. In addition, I am also looking to recieve a minor in *Data Science*. While completing my adventure at Iowa State, I have enjoyed refining my leadership skills through being involved in numerous clubs and organizations; however, my favorite part of my time here has been having the opportunity to meet so many different people with diverse backgrounds. There is truly so much we can learn from each other and I am so thankful to be surrounded by so many talented and passionate innovators here at Iowa State.
+  
+4. Write a paragraph describing a job that you think is related to data science. Include a hyperlink and an image. Make sure your answer is in a nice format to read. 
+
+    Answer: A job I think is related to data science is a <a href="https://jobdescriptionandresumeexamples.com/technical-service-manager-job-description-example/#:~:text=Technical%20service%20manager%20directs%20staff%20responsible%20for%20the,support%20experts%20to%20ensure%20company%2Fclient%20targets%20are%20met."> technical services manager</a> in a manufacturing plant. While working in supply chain, I have enjoyed being able to understand how we can utilize data to help us improve our processes. An example of when data is used in technical services is when a manager is looking to increase throughput in a system by reducing downtime. In order to best understand what problems attribute to the larget amount of downtime, the technical services manager can use data to help them make the most insightful decisions on what solutions might reduce downtime most significantly.![reduce downtime](C:\Users\16412\OneDrive\Desktop\ds202hw1\Reduce Downtime.jpeg)
+  
+5. What data topic will you be most interested in? (Optional) Provide a source of such dataset if you have.
+
+    Answer: I would be interested in further looking at data revolving around the COVID-19 pandemic. For example, I would love to further validate the effectiveness of wearing masks and recieving a vaccine to help stop the spread of the pandemic. I do not currently know how to source reliable data on this particular topic; however, I am excited to discover how to further do so in this class.
+  
+6. To check that your R and Rstudio installation is correct, find the version of R by entering `version` into the R console. Include this command into a R code trunk in your solution `Rmd` file to have it automatically printed in the knitted html file.
+
+    Answer: R version 4.1.1 (2021-08-10)
+  
+7. Install git. 
+    - If you are on Windows: 
+        a. Install [Git for Windows](https://gitforwindows.org/). In the coming weeks we will use the Git Bash (but not the Git GUI). 
+        b. After installation, set up Rstudio to use Git bash as the shell for the Terminal: Open RStudio, click Tools--Global Options--Terminal; under **Shells**, select Git Bash; click OK. 
+        c. In the main menu of RStudio: click Tools--Terminal--New Terminal. If you have a `$` before your prompt, then you should be good to go.
+        d. If you don't see a `$` before your prompt, try restarting RStudio.
+    - If you are on Linux or macOS, Git has probably been installed by default, so you do not need to install anything. Just click the Terminal tab (above the R Console).
+
+    Answer: Done
+  
+8. What is the version of your Git? To find out, go to the Terminal tab in RStudio (right to the Console tab), and type in the following command. If it works, this shows that the setup of your terminal and Git is correct. 
+<!-- Then explore the bash command line and Git. -->
+
+    ```
+    git --version
+    ```
+
+    Answer: git version 2.33.0.windows.2
+  
+9. Configure your git username and user email by modifying and entering the following commands into the terminal
+
+    ```
+    git config --global user.name "your first and last name"
+    git config --global user.email "your email"
+    ```
+
+    Answer: Done
+  
+
+10. Register a [GitHub](https://www.github.com) account. What is your username?
+
+    Answer: Rachel-Grober
