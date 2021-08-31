@@ -1,0 +1,15 @@
+---
+title: "Gabe Love Lab 1"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Name
+My name is Gabe Love.
+
+## Github
+My Github username is galoveIA
+The most recent commit was the first commit, adding the whole file to git (120ca7d4e9e6d5243cef8fb6e1cd635f266eab4a)
